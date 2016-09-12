@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.searchBox {
+  background-color: #fff;
+  margin: 24px 16px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+  &__input {
+    display: block;
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: $font-size-base;
+  }
+}
