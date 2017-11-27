@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+/* setting */
+@import 'setting/var';
+
+/* base */
+@import 'base/reset';
+@import 'base/base';
+
+/* component */
+@import 'component/hoge';
