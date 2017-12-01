@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb-base",
+  "globals": {
+    "google": true
+  },
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "class-methods-use-this": "off"
+  }
+}
