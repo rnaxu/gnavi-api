@@ -1,6 +1,6 @@
 {
-  "name": "gnavi-api",
-  "description": "gnavi-api",
+  "name": "map-gnavi",
+  "description": "map-gnavi",
   "version": "1.0.1",
   "main": "index",
   "browserslist": [
@@ -50,9 +50,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rnaxu/gnavi-api.git"
+    "url": "https://github.com/rnaxu/map-gnavi.git"
   },
   "keywords": [
-    "gnavi-api"
+    "map-gnavi"
   ]
 }
