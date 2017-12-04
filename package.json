@@ -6,7 +6,7 @@
   "browserslist": [
     "iOS >= 9",
     "Android >= 4.2",
-    "last 2 ChromeAndroid versions"
+    "last 2 versions"
   ],
   "scripts": {
     "clean": "rm -rf dist",
