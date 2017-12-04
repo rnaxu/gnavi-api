@@ -19,7 +19,7 @@
     "prd:css": "NODE_ENV=production postcss src/css/index.css -c postcss.config.js -o dist/css/main.css",
     "dev:css": "postcss src/css/index.css -c postcss.config.js -o dist/css/main.css -w",
     "prd:js": "mkdir -p dist/js && browserify src/js/index.js -o dist/js/main.js -t [ babelify --presets [ env ] ] && npm-run-all uglify:js",
-    "dev:js": "watchify src/js/index.js -o dist/js/main.js -t [ babelify --presets [ env ] ]",
+    "dev:js": "mkdir -p dist/js && watchify src/js/index.js -o dist/js/main.js -t [ babelify --presets [ env ] ]",
     "uglify:js": "uglifyjs dist/js/main.js -o dist/js/main.js"
   },
   "author": "rnaxu",
