@@ -1,15 +1,36 @@
 export default class Map {
-  constructor() {
+  // constructor() {
+  // }
+
+  /**
+   * 地図を生成
+   *
+   * @param { Objext } position 位置情報
+   *
+   */
+  initMap(position) {
     this.googleMap = new google.maps.Map(document.getElementById('js-map'), {
       center: {
-        lat: -34.397,
-        lng: 150.644,
+        lat: position.coords.latitude,
+        lng: position.coords.longitude,
       },
-      zoom: 8,
+      zoom: 15,
+      disableDefaultUI: true,
+      zoomControl: true,
+      zoomControlOptions: {
+        position: google.maps.ControlPosition.TOP_RIGHT,
+      },
     });
   }
 
-  init() {
-    console.log(this.gooogleMap);
+  /**
+   * 位置情報取得エラー時の処理
+   *
+   * @param { Object } error エラーコードとエラーメッセージ
+   */
+  error(error) {
+    console.log(error);
+
+    document.getElementById('js-error').classList.remove('is-hidden');
   }
 }

@@ -8,4 +8,10 @@
 @import 'base/base';
 
 /* component */
+@import 'component/button';
+@import 'component/error';
 @import 'component/map';
+@import 'component/searchType';
+
+/* util */
+@import 'util/is';
