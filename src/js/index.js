@@ -1,11 +1,4 @@
-// import Hash from './module/Hash';
-import Geo from './module/Geo';
-import Map from './module/Map';
+import Main from './module/Main';
 
-// const hash = new Hash();
-const geo = new Geo();
-const map = new Map();
-
-if (geo.isAvailableGeolocation) {
-  geo.getCurrentPosition(map.initMap, map.error);
-}
+const main = new Main();
+main.init();

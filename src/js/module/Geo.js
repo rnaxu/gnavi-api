@@ -1,8 +1,4 @@
 export default class Geo {
-  // constructor() {
-
-  // }
-
   /**
    * navigator.geolocation が使えるかチェック
    *

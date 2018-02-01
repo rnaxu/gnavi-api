@@ -1,23 +1,8 @@
 @charset 'utf-8';
 
 .error {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  width: 90%;
-  height: 50px;
-  box-sizing: border-box;
-  border: solid 1px var(--color-accent);
-  border-radius: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  &__message {
-    color: var(--color-accent);
-    font-weight: bold;
-  }
+  padding: 20px 10px;
+  color: var(--color-accent);
+  font-weight: bold;
+  text-align: center;
 }
